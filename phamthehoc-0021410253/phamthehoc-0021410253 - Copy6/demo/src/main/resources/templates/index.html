@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện Web</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Phần 1: Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Trang Chủ</a>
+        <div class="collapse navbar-collapse">
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <!-- Phần 2: Phần lọc -->
+            <div class="col-md-3">
+                <h5>Phần Lọc</h5>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="/sanphams">Xem tất cả sản phẩm</a></li>
+                    <li class="list-group-item"><a href="/nhanviens">Xem tất cả nhân viên</a></li>
+                    <li class="list-group-item"><a href="/khachhangs">Xem tất cả khách hàng</a></li>
+                    <li class="list-group-item"><a href="/nhacungcaps">Xem tất cả nhà cung cấp</a></li>
+                    <button class="btn btn-primary btn-block mt-2">Thêm sản phẩm</button>
+                    <button class="btn btn-primary btn-block mt-2">Thêm nhân viên</button>
+                    <button class="btn btn-primary btn-block mt-2">Thêm nhà cung cấp</button>
+                </ul>
+            </div>
+            <!-- Phần 3: Thông tin hiển thị -->
+            <div class="col-md-9">
+                <h5>Thông Tin</h5>
+                <div class="card">
+                    <div class="card-body">
+                        <p>Chào mừng bạn đến với trang quản lý!</p>
+                        <p>Tại đây bạn có thể xem và quản lý sản phẩm, nhân viên, khách hàng và nhà cung cấp.</p>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Phần 4: Chân trang -->
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>&copy; 2024 Công ty TNHH ABC. Bảo lưu mọi quyền.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
